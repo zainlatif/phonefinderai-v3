@@ -1,11 +1,17 @@
-query,label
-"I need the best camera phone","camera_phone"
-"I work in construction, need a tough phone","rugged_phone"
-"I want a phone with long battery life","long_battery"
-"I play heavy games, need powerful processor","gaming_phone"
-"I want a cheap phone with decent features","budget_phone"
-"I need waterproof phone for outdoor use","rugged_phone"
-"I make YouTube videos, need high quality camera","camera_phone"
-"My area has poor charging, need best battery backup","long_battery"
-"I want phone under 200 dollars","budget_phone"
-"I want a fast phone for gaming","gaming_phone"
+query,label,price,brand
+"I need the best camera phone","camera_phone",, 
+"I work in construction, need a tough phone","rugged_phone",,
+"I want a phone with long battery life","long_battery",,
+"I play heavy games, need powerful processor","gaming_phone",,
+"I want a cheap phone with decent features","budget_phone",,
+"I need waterproof phone for outdoor use","rugged_phone",,
+"I make YouTube videos, need high quality camera","camera_phone",,
+"My area has poor charging, need best battery backup","long_battery",,
+"I want phone under 200 dollars","budget_phone","<200",
+"I want a fast phone for gaming","gaming_phone",,
+"Looking for a Samsung phone with good camera","camera_phone",,Samsung
+"Suggest a Xiaomi phone under 300 dollars","budget_phone","<300",Xiaomi
+"Best Oppo phone for photography","camera_phone",,Oppo
+"Gaming phone between 300 and 400 dollars","gaming_phone","300-400",
+"Rugged phone from CAT","rugged_phone",,CAT
+"Long battery phone from Tecno","long_battery",,tecno

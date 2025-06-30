@@ -8,8 +8,15 @@ import joblib
 # Load data
 df = pd.read_csv('../data/training_data.csv')
 
+# Fill NaN with empty string
+df['price'] = df['price'].fillna('')
+df['brand'] = df['brand'].fillna('')
+
+# Combine features for vectorization
+df['combined'] = df['query'] + ' ' + df['price'] + ' ' + df['brand']
+
 # Split data
-X_train, X_test, y_train, y_test = train_test_split(df['query'], df['label'], test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(df['combined'], df['label'], test_size=0.2, random_state=42)
 
 # Vectorize text
 vectorizer = TfidfVectorizer()
