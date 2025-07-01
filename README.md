@@ -8,18 +8,20 @@ This project is an independent AI chatbot that recommends phones based on user n
 
    ```bash
    pip install -r requirements.txt
+   ```
 
 2. **Run Training Model**
 
    ```bash
    python model/train_model.py
+   ```
 
-3. **Run Api for frontend**
+3. **Run API for frontend**
 
    ```bash
    python api/app.py
+   ```
 
 4. **Open frontend**
 
-   ```bash
-   Open frontend/index.html
+   Open `frontend/index.html` in your browser.
