@@ -11,6 +11,17 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Rasa cache and model files
+.rasa/
+models/
+*.db
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
 # Model files
 model/classifier.pkl
 model/vectorizer.pkl

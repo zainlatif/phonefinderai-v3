@@ -1,0 +1,18 @@
+# domain.yml
+version: "3.1"
+intents:
+  - find_phone
+  - greet
+entities:
+  - feature
+  - brand
+  - price
+actions:
+  - action_find_phone
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you find a phone today?"
+  utter_goodbye:
+    - text: "Goodbye!"
+  utter_default:
+    - text: "Sorry, I didn't understand that. Can you rephrase?"

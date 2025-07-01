@@ -1,0 +1,17 @@
+version: "3.1"
+
+nlu:
+- intent: find_phone
+  examples: |
+    - I want a camera phone under 400 dollars from Oppo
+    - Show me Vivo phones with good battery life below 300
+    - Suggest a gaming phone between 500 and 700
+    - Recommend a Samsung phone with AMOLED display
+    - Find me a cheap phone with good performance
+    - I need a phone under 200 with large screen
+    - Suggest phone with best camera from Xiaomi
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey

@@ -1,0 +1,10 @@
+version: "3.1"
+stories:
+  - story: find phone story
+    steps:
+      - intent: find_phone
+      - action: action_find_phone
+  - story: greet user
+    steps:
+      - intent: greet
+      - action: utter_greet
